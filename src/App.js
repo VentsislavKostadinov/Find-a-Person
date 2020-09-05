@@ -1,13 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
+import Persons from "./Find-a-Person/Persons/Persons";
 import Header from "./Find-a-Person/Header/Header";
 
-function App() {
-  return (
-    <div className="App">
-     <Header/>
-    </div>
-  );
+export default class App extends Component {
+
+    render() {
+
+        return (
+            <div>
+                <Header/>
+               <Persons/>
+            </div>
+        )
+    }
+
 }
 
-export default App;
+
+
