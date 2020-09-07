@@ -1,0 +1,25 @@
+
+h3 {
+  margin-left: 253px;
+}
+
+.card {
+  display: inline-block !important;
+  float: right;
+  margin: 15px;
+  border: none !important;
+
+  .card-img-top {
+    height: 250px !important;
+  }
+  .card-body {
+  // padding: 0.5rem;
+    font-size: 14px;
+  }
+  .card-text {
+    font-weight: bold;
+    span {
+      color: #007EA8;
+    }
+  }
+}
